@@ -2,5 +2,8 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "fitness-gym",
   "compatibility_date": "2026-09-08",
-  "pages_build_output_dir": "./dist"
+  "pages_build_output_dir": "./dist",
+  "assets": {
+    "directory": "./dist"
+  }
 }
