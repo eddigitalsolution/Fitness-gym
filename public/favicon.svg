@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#050505"/>
+  <polygon points="15,10 85,10 75,90 5,90" fill="#ff3b00"/>
+  <text x="45" y="68" font-family="'Oswald', 'Teko', sans-serif" font-size="62" font-weight="900" fill="#000000" text-anchor="middle">K</text>
+</svg>
