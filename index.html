@@ -5,37 +5,82 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#050505" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https:;" />
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fitness-gym.pages.dev/" />
     
     <!-- Primary Metadata -->
     <title>KINETIC ATHLETICS | Sports Editorial Performance Training</title>
     <meta name="title" content="KINETIC ATHLETICS | Sports Editorial Performance Training" />
-    <meta name="description" content="Elite sports editorial performance training, custom human transformation programs, real-time kinetic metrics, and biomechanical sports engineering." />
-    <meta name="keywords" content="personal trainer, sports performance, kinetic athletics, strength training, VO2 max, sprint mechanics, Kuala Lumpur fitness" />
+    <meta name="description" content="Elite sports editorial performance training, custom human transformation protocols, real-time kinetic telemetry, and biomechanical sports engineering in Kuala Lumpur." />
+    <meta name="keywords" content="personal trainer, sports performance, kinetic athletics, strength training, VO2 max, sprint mechanics, Kuala Lumpur fitness, athletic lab" />
     <meta name="author" content="Kinetic Athletics Performance Lab" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://localhost:5174/" />
+    <meta property="og:url" content="https://fitness-gym.pages.dev/" />
+    <meta property="og:site_name" content="Kinetic Athletics Performance Lab" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="KINETIC ATHLETICS | Sports Editorial Performance Training" />
-    <meta property="og:description" content="High-contrast sports editorial performance training & real-time metric telemetry engineered for human potential." />
+    <meta property="og:description" content="High-contrast sports editorial performance training & real-time metric telemetry engineered for apex human potential." />
     <meta property="og:image" content="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Kinetic Athletics High-Contrast Sports Training Facility" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@KineticAthletics" />
     <meta property="twitter:title" content="KINETIC ATHLETICS | Sports Editorial Performance Training" />
-    <meta property="twitter:description" content="High-contrast sports editorial performance training & real-time metric telemetry engineered for human potential." />
+    <meta property="twitter:description" content="High-contrast sports editorial performance training & real-time metric telemetry engineered for apex human potential." />
     <meta property="twitter:image" content="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80" />
 
     <!-- Google Fonts Preconnect & Optimization for Lighthouse 90+ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Oswald:wght@400;600;700&family=Teko:wght@600;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data Schema for Local Business & Gym -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExerciseGym",
+      "name": "Kinetic Athletics Performance Lab",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://fitness-gym.pages.dev/#gym",
+      "url": "https://fitness-gym.pages.dev/",
+      "telephone": "+60 11-3071 9502",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Level 18, Tower 2, Persiaran KLCC",
+        "addressLocality": "Kuala Lumpur",
+        "postalCode": "50088",
+        "addressCountry": "MY"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "06:00",
+        "closes": "22:00"
+      }
+    }
+    </script>
   </head>
   <body class="bg-[#050505] text-white antialiased selection:bg-[#ff3b00] selection:text-black overflow-x-hidden font-sans">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
