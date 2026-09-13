@@ -71,6 +71,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   name="name"
                   type="text"
                   required
+                  autoComplete="name"
                   placeholder="e.g. Alex Mercer"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -86,6 +87,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     name="email"
                     type="email"
                     required
+                    autoComplete="email"
                     placeholder="alex@performance.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -99,6 +101,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     name="phone"
                     type="tel"
                     required
+                    autoComplete="tel"
                     placeholder="+60 11-3071 9502"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
